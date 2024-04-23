@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    <link rel="icon" href="../Assets/Images/Favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/student.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="clsheader">
+        <div class="clsheaderlogo">
+            <img src="../Assets/Images/logo.png" />
+        </div>
+        <div class="clsheaderprofile">
+            <div class="clsheaderprofilelogo">
+                <div class="clsprofilelogo">
+                    <label>
+                        <i class="fa fa-graduation-cap clsgraduationcap"></i>&nbsp;&nbsp;&nbsp;School Management System
+                    </label>
+                    <input type="text" class="clsheadersearch" placeholder="Search here...">
+                </div>
+            </div>
+            <div class="clsheaderprofileicons">
+                <div class="clsheaderprfcontent">
+                    <div class="clsdivfavicons">
+                        <i class="fa fa-globe clsheaderfavicons"></i>
+                    </div>
+                    <select class="clsheaderlanguage">
+                        <option value="English">English</option>
+                        <option value="Kannada">Kannada</option>
+                    </select>
+
+                </div>
+                <div class="clsheaderprfcontent">
+                    <div class="clsdivfavicons" style="margin-left: 15%;">
+                        <i class="fa fa-envelope clsheaderfavicons"></i>
+                    </div>
+                    <div class="clsdivfavicons" style="margin-left: 15%;">
+                        <i class="fa fa-bell clsheaderfavicons"></i>
+                    </div>
+                </div>
+                <div class="clsheaderprfcontent" style="width: 35%;">
+                    <div class="clsdivfavicons">
+                        <i class="fa fa-user clsheaderfavicons"></i>
+                    </div>
+                    <div class="clsprfdetails">
+                        <p>
+                            Gagan JS&nbsp;<i class="fa fa-caret-down"></i>
+                            <br />
+                            <a href="../HTML/login.html">Logout</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header END -->
+    <!-- Body Start -->
+    <div class="clsrow">
+        <aside class="clsasidemenus">
+            <ul class="clsmenuul">
+                <li>
+                    <a href="../HTML/dashboard.html">
+                        <i class="fa fa-dashboard famenuicon"></i>
+                        <span>Dashboard</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li class="clsmenuactive">
+                    <a href="../HTML/student.html">
+                        <i class="fa fa-users famenuicon"></i>
+                        <span>Students</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/allteacherlist.html">
+                        <i class="fa fa-user famenuicon"></i>
+                        <span>Teachers</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/allbooklist.html">
+                        <i class="fa fa-book famenuicon"></i>
+                        <span>Library</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/attendance.html">
+                        <i class="fa fa-list famenuicon"></i>
+                        <span>Attendence</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+            </ul>
+        </aside>
+        <section class="clssectioncontent">
+            <div class="row">
+                <!-- Main Page Content Starts -->
+                <label class="clsrowlabel">Student</label>
+                <a href="../HTML/allstudentlist.html" class="cls_a_alllist">All Student List</a>
+                <br /><br />
+                <div class="clsdashboardcount">
+                    <div class="clsdashboardleft clsdcount">
+                        <div class="cls_d cls_exambc" style="margin:0% 3% 0% 0%;">
+                            <div class="cls_d_cnt">
+                                <i class="fa fa-edit cls_d_fa"></i>
+                                <span class="cls_faspan">Upcoming Exam</span>
+                            </div>
+                            <div class="cls_d_cnt">
+                                <span class="cls_d_span">05</span>
+                            </div>
+                        </div>
+                        <div class="cls_d cls_moneybc">
+                            <div class="cls_d_cnt">
+                                <i class="fa fa-money cls_d_fa"></i>
+                                <span class="cls_faspan">Due Fees</span>
+                            </div>
+                            <div class="cls_d_cnt">
+                                <span class="cls_d_span">$1,500</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clsdashboardright clsdcount">
+                        <div class="cls_d cls_eventsbc" style="margin:0% 3% 0% 0%;">
+                            <div class="cls_d_cnt">
+                                <i class="fa fa-flag cls_d_fa"></i>
+                                <span class="cls_faspan">Events</span>
+                            </div>
+                            <div class="cls_d_cnt">
+                                <span class="cls_d_span">10</span>
+                            </div>
+                        </div>
+                        <div class="cls_d cls_folderbc">
+                            <div class="cls_d_cnt">
+                                <i class="fa fa-folder cls_d_fa"></i>
+                                <span class="cls_faspan">Documents</span>
+                            </div>
+                            <div class="cls_d_cnt">
+                                <span class="cls_d_span">02</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  Information content starts here!!!!!! -->
+                <div class="cls_myinfo">
+                    <div class="model_content">
+                        <div class="model_header cls_d_modelheader">
+                            <div class="model_title">
+                                My Information
+                            </div>
+                            <div class="model_icons">
+                                <i class="fa fa-angle-down"></i>
+                                <i class="fa fa-refresh" title="Click here to refresh"></i>
+                                <i class="fa fa-close" title="Click here to close"></i>
+                            </div>
+                        </div>
+                        <div class="model_body myInfoBody">
+                            <div class="cls_profileimage">
+
+                                <div class="cls_profiletop">
+                                    <img src="../Assets/Images/student.jpg" class="cls_studentimg" />
+                                </div>
+                                <div class="cls_profilebottom">
+                                    <i class="fa fa-edit cls_profilefa"></i>
+                                    <i class="fa fa-print cls_profilefa"></i>
+                                    <i class="fa fa-download cls_profilefa"></i>
+                                    <i class="fa fa-share-alt cls_profilefa"></i>
+                                </div>
+                            </div>
+
+
+                            <div class="cls_myInfoDetails">
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Name:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        Richi Hassan
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Gender:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        Richi Hassan
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Name:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        Female
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Father Name:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        Kazi Fahimur Rahman
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Mother Name:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        Richi Akon
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Date of Birth:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        03/04/2010
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Religion:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        Islam
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Name:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        Richi Hassan
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Father Occupation:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        Businessman
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Email:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        richihassan@gmail.com
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Admission Date:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        05/04/2016
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Class:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        2
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Section:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        A
+                                    </div>
+                                </div>
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Roll:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        2901
+                                    </div>
+                                </div>
+
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Address:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        Ta-107 Sydene,Australia
+                                    </div>
+                                </div>
+
+                                <div class="cls_box">
+                                    <div class="cls_nameBox cls_List">
+                                        Phone:
+                                    </div>
+                                    <div class="cls_realBox ">
+                                        +88 255600
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Notice Content Starts here -->
+                <div class="cls_noticeboard">
+                    <div class="model_content">
+                        <div class="model_header cls_d_modelheader">
+                            <div class="model_title">
+                                Notice Board
+                            </div>
+                            <div class="model_search_icons">
+                                <div class="model_icons">
+                                    <i class="fa fa-angle-down"></i>
+                                    <i class="fa fa-refresh" title="Click here to refresh"></i>
+                                    <i class="fa fa-close" title="Click here to close"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="model_body cls_noticeContent">
+                            <div class="cls_noticedata">
+                                <p class="clsp1">16 May, 2017</p>
+                                <p class="clsp2">Gagan <small>5 min ago</small></p>
+                                <p class="clsp3">Great School management tssimply dummy text after printing and type
+                                    setting.</p>
+                            </div>
+                            <div class="cls_noticedata">
+                                <p class="clsp1">16 May, 2017</p>
+                                <p class="clsp2">Gagan <small>5 min ago</small></p>
+                                <p class="clsp3">Great School management tssimply dummy text after printing and type
+                                    setting.</p>
+                            </div>
+                            <div class="cls_noticedata">
+                                <p class="clsp1">16 May, 2017</p>
+                                <p class="clsp2">Gagan <small>5 min ago</small></p>
+                                <p class="clsp3">Great School management tssimply dummy text after printing and type
+                                    setting.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Exam Result Content Starts here -->
+                <div class="cls_allExamResult">
+                    <div class="model_content">
+                        <div class="model_header cls_d_modelheader">
+                            <div class="model_title">
+                                <span>All Exam Result</span>
+                            </div>
+                            <div class="model_search_icons">
+                                <div class="model_searchbar">
+                                    <input type="text" class="cls_modelSearch" placeholder="Search by Exam..." />
+                                    <input type="text" class="cls_modelSearch" placeholder="Search by Date..." />
+                                    <button class="cls_modelbtnsearch">Search</button>
+                                </div>
+                                <div class="model_icons">
+                                    <i class="fa fa-angle-down"></i>
+                                    <i class="fa fa-refresh" title="Click here to refresh"></i>
+                                    <i class="fa fa-close" title="Click here to close"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="model_body allexamlistbody">
+                            <table class="cls_commontable">
+                                <thead>
+                                    <tr>
+                                        <th>Exam Name</th>
+                                        <th>Subject</th>
+                                        <th>Grade Point</th>
+                                        <th>Percent From</th>
+                                        <th>Percent Upto</th>
+                                        <th>Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Class Test</td>
+                                        <td>Mathematics</td>
+                                        <td>4.0</td>
+                                        <td>98.00</td>
+                                        <td>100.00</td>
+                                        <td>20/06/2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Class Test</td>
+                                        <td>Mathematics</td>
+                                        <td>4.0</td>
+                                        <td>98.00</td>
+                                        <td>100.00</td>
+                                        <td>20/06/2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Class Test</td>
+                                        <td>Mathematics</td>
+                                        <td>4.0</td>
+                                        <td>98.00</td>
+                                        <td>100.00</td>
+                                        <td>20/06/2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Class Test</td>
+                                        <td>Mathematics</td>
+                                        <td>4.0</td>
+                                        <td>98.00</td>
+                                        <td>100.00</td>
+                                        <td>20/06/2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Class Test</td>
+                                        <td>Mathematics</td>
+                                        <td>4.0</td>
+                                        <td>98.00</td>
+                                        <td>100.00</td>
+                                        <td>20/06/2017</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Facebook and 3 others content starts here -->
+                <div class="clsStudentDashboardCount">
+                    <div class="clsdashboardleft clsdcount">
+                        <div class="cls_d cls_fb" style="margin:0% 3% 0% 0%;">
+                            <div class="cls_smscontent">
+                                <i class="fa fa-facebook-f cls_fcolor"></i><br />
+                                <label class="cls_fblabel">
+                                    My Follower<br />on Facebook
+                                </label>
+                            </div>
+                            <div class="cls_fbcount">
+                                <span class="cls_fbdigit">30,000</span>
+                            </div>
+
+                        </div>
+                        <div class="cls_d cls_twitter">
+                            <div class="cls_smscontent ">
+                                <i class="fa fa-twitter cls_fcolor"></i><br />
+                                <label class="cls_fblabel">
+                                    My Follower<br />on Twitter
+                                </label>
+                            </div>
+                            <div class="cls_fbcount">
+                                <span class="cls_fbdigit">13,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clsdashboardright clsdcount">
+                        <div class="cls_d  cls_googleplus" style="margin:0% 3% 0% 0%" ;>
+                            <div class="cls_smscontent ">
+                                <i class="fa fa-google-plus cls_fcolor"></i><br />
+                                <label class="cls_fblabel">
+                                    My Follower<br />on Google Plus
+                                </label>
+                            </div>
+                            <div class="cls_fbcount">
+                                <span class="cls_fbdigit">8,000</span>
+                            </div>
+
+                        </div>
+                        <div class="cls_d cls_linkedin">
+                            <div class="cls_smscontent ">
+                                <i class="fa fa-linkedin cls_fcolor"></i><br />
+                                <label class="cls_fblabel">
+                                    My Follower<br />on Linkedin
+                                </label>
+                            </div>
+                            <div class="cls_fbcount">
+                                <span class="cls_fbdigit">18,000</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <p>&copy; Copyrights SMS 2023. All rights reserved. Designed by <b style="color: black;">Gagan</b></p>
+            </footer>
+        </section>
+    </div>
+</body>
+
+</html>

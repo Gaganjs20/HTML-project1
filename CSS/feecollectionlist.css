@@ -1,0 +1,23 @@
+.cls_feesbtnpaid {
+  border-radius: 10px;
+  color: white;
+  background-color: #47c51e;
+  width: 70%;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2%;
+  cursor: pointer;
+  height: 20px;
+}
+.cls_feesbtndue {
+  border-radius: 10px;
+  color: white;
+  background-color: red;
+  width: 70%;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+   height: 20px;
+}

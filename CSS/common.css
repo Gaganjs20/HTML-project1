@@ -1,0 +1,458 @@
+body {
+  margin: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 100px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: dodgerblue;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: dodgerblue;
+}
+/* ----------------Header Start------------ */
+.clsheader {
+  height: 50px;
+  width: 100%;
+}
+
+.clsheaderlogo {
+  height: 50px;
+  width: 15%;
+  background-color: #ffa901;
+  float: left;
+}
+
+.clsheaderprofile {
+  height: 50px;
+  width: 85%;
+  float: left;
+  background-color: white;
+}
+
+.clsheaderprofilelogo {
+  height: 50px;
+  width: 61%;
+  float: left;
+}
+
+.clsprofilelogo {
+  padding: 11px;
+}
+
+.clsheaderprofileicons {
+  height: 50px;
+  width: 39%;
+  float: left;
+}
+
+.clsprofilelogo label {
+  color: #b1aaaa;
+  font-size: 16px;
+}
+
+.clsgraduationcap {
+  color: #c5c1c1;
+  font-size: 24px;
+}
+
+.clsheaderfavicons {
+  color: black;
+  line-height: 25px;
+}
+
+.clsdivfavicons {
+  height: 25px;
+  width: 25px;
+  background-color: #e7e4e4;
+  border-radius: 100%;
+  text-align: center;
+  float: left;
+}
+
+.clsheadersearch {
+  float: right;
+  width: 40%;
+  border-radius: 30px;
+  height: 25px;
+  border: none;
+  outline: unset;
+  background-color: #f8f8f8;
+  font-size: 11px;
+}
+
+.clsheaderprfcontent {
+  height: auto;
+  float: left;
+  width: 22%;
+  padding: 12px;
+}
+
+.clsheaderlanguage {
+  border-radius: 30px;
+  height: 25px;
+  border: none;
+  outline: unset;
+  /* background-color: #f8f8f8; */
+  font-size: 12px;
+  margin-left: 2%;
+  cursor: pointer;
+}
+
+.clsprfdetails {
+  float: left;
+  height: 28px;
+  width: 74%;
+  margin-left: 5%;
+}
+
+.clsprfdetails p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.clsprfdetails a {
+  font-size: 10px;
+  text-decoration: none;
+  color: #a3a1a1;
+  cursor: pointer;
+}
+
+.clsprfdetails a:hover {
+  text-decoration: underline;
+}
+
+/* ----------------Header END------------ */
+/* ----------------Menu and Content Start------------ */
+.clsmenuactive {
+  background: -webkit-linear-gradient(left, #373738, #f0be58);
+}
+.clsasidemenus {
+  background-color: #042954;
+  width: 15%;
+  float: left;
+  height: 687px;
+}
+
+.clssectioncontent {
+  background-color: #f0f1f3;
+  width: 85%;
+  float: left;
+  height: 687px;
+}
+
+.famenuicon {
+  color: #ffa901;
+}
+
+.clsmenuul {
+  list-style: none;
+  display: contents;
+}
+
+.clsmenuul li {
+  padding: 15px;
+  border-bottom: solid #6e6a6a 1px;
+  cursor: pointer;
+}
+
+.clsmenuul li a {
+  text-decoration: unset;
+  color: #d6d6d7;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.clsmenuul li a span {
+  margin-left: 10%;
+}
+
+.clsmenuul li .fa-angle-down {
+  color: white;
+  float: right;
+}
+.clsmenuul li:hover {
+  background: -webkit-linear-gradient(left, #373738, #f0be58);
+}
+
+.clssectioncontent .row {
+  /* border: solid red 1px; */
+  height: 625px;
+  width: 97%;
+  margin: 1.5% 1.5% 0% 1.5%;
+  float: left;
+}
+
+.clssectioncontent footer {
+  /* border: solid red 1px; */
+  width: 97%;
+  float: left;
+  margin-left: 1.5%;
+  font-size: 12px;
+  color: #a3a1a1;
+}
+
+.clsrowlabel {
+  font-size: 14px;
+  color: #a3a1a1;
+}
+
+/* ----------------Menu and Content END-------------- */
+/* Model CSS Starts */
+.model_content {
+  width: 100%;
+  height: auto;
+  float: left;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.model_header {
+  border-bottom: 1px solid #f0f1f3;
+  width: 100%;
+  height: 40px;
+  float: left;
+  background-color: white;
+}
+
+.model_body {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.model_title {
+  float: left;
+  font-weight: bold;
+  font-size: 13px;
+  width: auto;
+  padding: 12px;
+}
+
+.model_icons {
+  float: right;
+  width: auto;
+  padding: 12px;
+  letter-spacing: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.model_icons .fa-refresh {
+  color: #85d30d;
+}
+
+.model_icons .fa-close {
+  color: red;
+}
+
+.model_icons .fa-angle-down {
+  color: #ffb40a;
+}
+.model_searchbar {
+  float: left;
+  width: auto;
+  padding: 8px;
+}
+
+.cls_modelSearch {
+  width: auto;
+  border-radius: 30px;
+  height: 20px;
+  border: 1px solid #f0f1f3;
+  outline: unset;
+  background-color: #f8f8f8;
+  font-size: 11px;
+}
+.cls_modelbtnsearch {
+  width: auto;
+  border-radius: 30px;
+  height: 20px;
+  border: none;
+  outline: unset;
+  background-color: #1d518f;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+.model_search_icons {
+  float: right;
+  width: auto;
+}
+/* Model CSS Ends */
+
+/* Table CSS starts */
+
+.cls_commontable {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cls_commontable thead tr {
+  background-color: white;
+  text-align: left;
+}
+.cls_commontable thead th {
+  color: #042954;
+  height: 35px;
+  font-size: 14px;
+  padding: 5px;
+  border-bottom: 1px solid #f0f1f3;
+}
+.cls_commontable tbody td {
+  font-size: 13px;
+  color: #484848;
+  text-align: left;
+}
+.cls_commontable thead tr th:first-child {
+  padding-left: 20px;
+}
+.cls_commontable tbody tr td:first-child {
+  padding-left: 20px;
+}
+
+.cls_commontable tbody tr:nth-of-type(odd) {
+  background-color: white;
+  height: 40px;
+}
+
+.cls_commontable tbody tr:nth-of-type(even) {
+  background-color: #ebe9e9;
+  height: 40px;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+}
+.cls_commontable tbody tr td .fa-eye {
+  color: grey;
+  cursor: pointer;
+  padding: 5px;
+}
+.cls_commontable tbody tr td .fa-edit {
+  color: green;
+  cursor: pointer;
+  padding: 5px;
+}
+.cls_commontable tbody tr td .fa-trash {
+  color: red;
+  cursor: pointer;
+  padding: 5px;
+}
+/* Table CSS ends */
+.cls_a_alllist {
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: dodgerblue;
+  cursor: pointer;
+  margin-left: 2%;
+}
+.cls_a_alllist:hover {
+  color: black;
+  text-decoration: underline;
+}
+.cls_tdimg {
+  text-align: center;
+}
+/* Form Css Starts */
+
+.cls_formLabel {
+  font-weight: bolder;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.cls_addstuInfobtn {
+  height: 30px;
+  float: left;
+  width: 96%;
+  margin: 1% 2% 0% 2%;
+}
+.cls_formrow {
+  height: 60px;
+  float: left;
+  width: 100%;
+  margin: 7px 0% 0% 0%;
+}
+.cls_formelements {
+  height: 60px;
+  float: left;
+  width: 23%;
+  margin: 0% 2% 0% 0%;
+}
+.cls_formrow .cls_formelements:last-child {
+  margin: 0%;
+}
+.cls_formbtn {
+  width: 7%;
+  border-radius: 5px;
+  height: 35px;
+  border: none;
+  outline: unset;
+  background-color: #1d518f;
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+}
+.cls_formsave {
+  background-color: #ffa901;
+}
+.cls_formelements label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #042954;
+}
+.form-control {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  background: #f8f8f8;
+  color: black;
+  font-size: 13px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none;
+  outline: none;
+  display: block;
+}
+input[type="file"] {
+  background: none;
+  line-height: 30px;
+  cursor: pointer;
+}
+.cls_radlabel {
+  cursor: pointer;
+  color: black !important;
+}
+input[type="radio"] {
+  cursor: pointer;
+  color: black !important;
+}
+/* Form Css Ends */
+.span_formerror{
+  border: 1px solid red;
+}
+big{
+  color: red;
+}
+.label_error{
+  color: red !important;
+}

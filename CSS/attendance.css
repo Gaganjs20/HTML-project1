@@ -1,0 +1,47 @@
+.cls_addstuInfo {
+  height: 175px;
+  float: left;
+  width: 98%;
+  margin: 1% 2% 0% 2%;
+}
+.cls_addstuInfobtn {
+  height: 60px;
+  float: left;
+  width: 96%;
+  margin: 0% 2% 0% 2%;
+}
+.cls_addstuInfo {
+  height: 90px;
+  float: left;
+  width: 98%;
+  margin: 1% 2% 0% 2%;
+}
+.cls_upperattendance {
+    margin-bottom: 25px;
+}
+.cls_commontable tbody tr td:first-child {
+    text-align: left;
+}
+.cls_commontable thead th {
+    text-align: center;
+}
+.cls_commontable tbody td {
+    text-align: center;
+}
+.cls_commontable thead th:nth-of-type(odd) {
+    background-color: #ebe9e9;
+    height: 40px;
+}
+.cls_commontable thead th:nth-of-type(even) {
+    background-color: white;
+    height: 40px;
+}
+.fa-check{
+    color: green;
+}
+.fa-close{
+    color: red;
+}
+.cls_allstulistcontent{
+    height: 300px;
+}

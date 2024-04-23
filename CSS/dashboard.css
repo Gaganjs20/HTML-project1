@@ -1,0 +1,190 @@
+/* Dashboard content start */
+.clsdashboardcount {
+  /* border: 1px solid red; */
+  height: 90px;
+  width: 100%;
+  float: left;
+}
+.clsdashboardsocial {
+  height: 200px;
+  width: 100%;
+  float: left;
+  margin: 1.5% 0% 1.5% 0%;
+}
+.clsdashboardnotice {
+  height: 253px;
+  width: 100%;
+  float: left;
+  margin: 0% 0% 1.5% 0%;
+}
+.clsdashboardleft {
+  /* border: 1px solid red; */
+  width: 49%;
+  float: left;
+  margin: 0% 1.5% 0% 0%;
+}
+.clsdashboardright {
+  /* border: 1px solid red; */
+  width: 49.5%;
+  float: left;
+}
+.clsdcount {
+  height: 90px;
+}
+.clsdsocial {
+  height: 200px;
+}
+.clsdnotice {
+  height: 253px;
+}
+.cls_d {
+  background-color: white;
+  height: 90px;
+  width: 48.5%;
+  float: left;
+  border-radius: 3px;
+}
+.cls_d_cnt {
+  text-align: center;
+  float: left;
+  width: 49%;
+  display: grid;
+  /* padding: 35px 0px 0px 1px; */
+}
+.cls_d_cnt .fa-users {
+  color: #4dd34d;
+}
+.cls_d_cnt .fa-user {
+  color: dodgerblue;
+}
+.cls_d_cnt .fa-user-plus {
+  color: #ffb40a;
+}
+.cls_d_cnt .fa-money {
+  color: #42bef1;
+}
+.cls_d_fa {
+  font-size: 28px;
+  padding: 23px 0px 0px 0px;
+}
+.cls_faspan {
+  line-height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.cls_d_span {
+  font-size: 26px;
+  display: inline-block;
+  padding: 30px 0px 0px 0px;
+  font-weight: bold;
+}
+.cls_fee_modelbody {
+  height: 158px;
+}
+/* .cls_d_modelheader .model_title {
+  width: 85%;
+}
+.cls_d_modelheader .model_icons {
+  width: 7%;
+} */
+.cls_event_modelbody {
+  height: 215px;
+  overflow-y: scroll;
+}
+.cls_noticeboard {
+  float: left;
+  width: 48.5%;
+  height: 253px;
+}
+.cls_recentactivity {
+  float: left;
+  width: 48.5%;
+  height: 253px;
+}
+.cls_sms {
+  height: 90px;
+  width: 48.5%;
+  float: left;
+  border-radius: 0px;
+  color: white;
+  font-weight: bold;
+}
+.cls_fb {
+  background: -webkit-linear-gradient(358deg, #1845a7, #9cb4e9);
+}
+.cls_twitter {
+  background: -webkit-linear-gradient(358deg, #1da1f2, #87ccf7);
+}
+.cls_googleplus {
+  background: -webkit-linear-gradient(358deg, #db4437, #fba69f);
+}
+.cls_linkedin {
+  background: -webkit-linear-gradient(358deg, #0b5dd7, #99cbe6);
+}
+.cls_smscontent {
+  padding: 12px;
+  float: left;
+  height: 40px;
+  width: 30%;
+}
+.cls_smscontent label {
+  font-size: 11px;
+  margin: 0px;
+  padding: 0px;
+}
+.cls_fbcount {
+  float: right;
+  font-size: 30px;
+  margin: 42px 15px 0px 0px;
+}
+.cls_fbdigit {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.cls_noticedata {
+  height: auto;
+  width: auto;
+  padding: 5% 5% 0% 5%;
+  float: left;
+}
+.cls_noticedata p {
+  margin: 0px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.clsp1 {
+  color: grey;
+}
+.clsp2 {
+  color: rgb(39, 214, 74);
+  font-weight: bold;
+}
+.clsp3 {
+  color: grey;
+}
+.fa-circle-o {
+  color: orange;
+}
+.cls_ulfee {
+  list-style: none;
+  margin: 0px;
+}
+.cls_ulfee li {
+  padding: 1%;
+}
+.cls_ulfee li label{
+  font-weight: bold;
+}
+.cls_ulfee li span{
+  font-size: 12px;
+    color: grey;
+}
+.clssq1{
+  color: dodgerblue;
+}
+.clssq2{
+  color: #f44336;
+}
+.clssq3{
+  color: #ffe000;
+}
+/* Dashboard content end */

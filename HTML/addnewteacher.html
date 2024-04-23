@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Teacher</title>
+    <link rel="icon" href="../Assets/Images/Favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/addnewteacher.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="clsheader">
+        <div class="clsheaderlogo">
+            <img src="../Assets/Images/logo.png" />
+        </div>
+        <div class="clsheaderprofile">
+            <div class="clsheaderprofilelogo">
+                <div class="clsprofilelogo">
+                    <label>
+                        <i class="fa fa-graduation-cap clsgraduationcap"></i>&nbsp;&nbsp;&nbsp;School Management System
+                    </label>
+                    <input type="text" class="clsheadersearch" placeholder="Search here...">
+                </div>
+            </div>
+            <div class="clsheaderprofileicons">
+                <div class="clsheaderprfcontent">
+                    <div class="clsdivfavicons">
+                        <i class="fa fa-globe clsheaderfavicons"></i>
+                    </div>
+                    <select class="clsheaderlanguage">
+                        <option value="English">English</option>
+                        <option value="Kannada">Kannada</option>
+                    </select>
+
+                </div>
+                <div class="clsheaderprfcontent">
+                    <div class="clsdivfavicons" style="margin-left: 15%;">
+                        <i class="fa fa-envelope clsheaderfavicons"></i>
+                    </div>
+                    <div class="clsdivfavicons" style="margin-left: 15%;">
+                        <i class="fa fa-bell clsheaderfavicons"></i>
+                    </div>
+                </div>
+                <div class="clsheaderprfcontent" style="width: 35%;">
+                    <div class="clsdivfavicons">
+                        <i class="fa fa-user clsheaderfavicons"></i>
+                    </div>
+                    <div class="clsprfdetails">
+                        <p>
+                            Gagan JS&nbsp;<i class="fa fa-caret-down"></i>
+                            <br />
+                            <a href="../HTML/login.html">Logout</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header END -->
+    <!-- Body Start -->
+    <div class="clsrow">
+        <aside class="clsasidemenus">
+            <ul class="clsmenuul">
+                <li>
+                    <a href="../HTML/dashboard.html">
+                        <i class="fa fa-dashboard famenuicon"></i>
+                        <span>Dashboard</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/student.html">
+                        <i class="fa fa-users famenuicon"></i>
+                        <span>Students</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li class="clsmenuactive">
+                    <a href="../HTML/allteacherlist.html">
+                        <i class="fa fa-user famenuicon"></i>
+                        <span>Teachers</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/allbooklist.html">
+                        <i class="fa fa-book famenuicon"></i>
+                        <span>Library</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/attendance.html">
+                        <i class="fa fa-list famenuicon"></i>
+                        <span>Attendence</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+            </ul>
+        </aside>
+        <section class="clssectioncontent">
+            <div class="row">
+                <!-- Main Content starts -->
+                <label class="clsrowlabel">Add New Teacher</label>
+                <a href="../HTML/allteacherlist.html" class="cls_a_alllist">Back to Teacher List</a>
+                <br /><br />
+                <div class="model_content">
+                    <div class="model_header cls_d_modelheader">
+                        <div class="model_title">
+                            Teacher Information
+                        </div>
+                        <div class="model_search_icons">
+                            <div class="model_icons">
+                                <i class="fa fa-angle-down"></i>
+                                <i class="fa fa-refresh" title="Click here to refresh"></i>
+                                <i class="fa fa-close" title="Click here to close"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="model_body cls_addStudentBody">
+                        <div class="cls_addstuInfo">
+                            <div class="cls_formrow">
+                                <div class="cls_formelements">
+                                    <label>First Name</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="cls_formelements">
+                                    <label>Last Name</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="cls_formelements">
+                                    <label>Class</label>
+                                    <select class="form-control">
+                                        <option value="0">Please Select Class</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                </div>
+                                <div class="cls_formelements">
+                                    <label>Section</label>
+                                    <select class="form-control">
+                                        <option value="0">Please Select Section</option>
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                        <option value="D">D</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="cls_formrow">
+                                <div class="cls_formelements">
+                                    <label>Gender</label><br />
+                                    <label class="cls_radlabel"><input type="radio" name="Gender"
+                                            value="Male">Male</label>
+                                    <label class="cls_radlabel"><input type="radio" name="Gender"
+                                            value="Female">Female</label>
+                                </div>
+                                <div class="cls_formelements">
+                                    <label>Date of Birth</label>
+                                    <input type="date" class="form-control" />
+                                </div>
+                                <div class="cls_formelements">
+                                    <label>Id No</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="cls_formelements">
+                                    <label>Subject</label>
+                                    <select class="form-control">
+                                        <option value="0">Please Select Section</option>
+                                        <option value="A">Physics</option>
+                                        <option value="B">Chemistry</option>
+                                        <option value="C">Maths</option>
+                                        <option value="D">Biology </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="cls_formrow">
+                                <div class="cls_formelements">
+                                    <label>Religion</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="cls_formelements">
+                                    <label>E-mail</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="cls_formelements">
+                                    <label>Phone No</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="cls_formelements">
+                                    <label>Address</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                            </div>
+                            <div class="cls_formrow">
+                                <div class="cls_formelements">
+                                    <label>Upload Teacher Photo (150px X 150px)</label>
+                                    <input type="file" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cls_addstuInfobtn">
+                            <button class="cls_formbtn cls_formsave" title="Click here to Save">Save</button>
+                            <button class="cls_formbtn cls_formreset" title="Click here to Reset">Reset</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main Content Ends -->
+            </div>
+            <footer>
+                <p>&copy; Copyrights SMS 2023. All rights reserved. Designed by <b style="color: black;">Gagan</b></p>
+            </footer>
+        </section>
+    </div>
+    <!-- Body End -->
+</body>
+
+</html>

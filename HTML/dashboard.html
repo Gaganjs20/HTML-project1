@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" href="../Assets/Images/Favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/dashboard.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="clsheader">
+        <div class="clsheaderlogo">
+            <img src="../Assets/Images/logo.png" />
+        </div>
+        <div class="clsheaderprofile">
+            <div class="clsheaderprofilelogo">
+                <div class="clsprofilelogo">
+                    <label>
+                        <i class="fa fa-graduation-cap clsgraduationcap"></i>&nbsp;&nbsp;&nbsp;School Management System
+                    </label>
+                    <input type="text" class="clsheadersearch" placeholder="Search here...">
+                </div>
+            </div>
+            <div class="clsheaderprofileicons">
+                <div class="clsheaderprfcontent">
+                    <div class="clsdivfavicons">
+                        <i class="fa fa-globe clsheaderfavicons"></i>
+                    </div>
+                    <select class="clsheaderlanguage">
+                        <option value="English">English</option>
+                        <option value="Kannada">Kannada</option>
+                    </select>
+
+                </div>
+                <div class="clsheaderprfcontent">
+                    <div class="clsdivfavicons" style="margin-left: 15%;">
+                        <i class="fa fa-envelope clsheaderfavicons"></i>
+                    </div>
+                    <div class="clsdivfavicons" style="margin-left: 15%;">
+                        <i class="fa fa-bell clsheaderfavicons"></i>
+                    </div>
+                </div>
+                <div class="clsheaderprfcontent" style="width: 35%;">
+                    <div class="clsdivfavicons">
+                        <i class="fa fa-user clsheaderfavicons"></i>
+                    </div>
+                    <div class="clsprfdetails">
+                        <p>
+                            Gagan JS&nbsp;<i class="fa fa-caret-down"></i>
+                            <br />
+                            <a href="../HTML/login.html">Logout</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header END -->
+    <!-- Body Start -->
+    <div class="clsrow">
+        <aside class="clsasidemenus">
+            <ul class="clsmenuul">
+                <li class="clsmenuactive">
+                    <a href="../HTML/dashboard.html">
+                        <i class="fa fa-dashboard famenuicon"></i>
+                        <span>Dashboard</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/student.html">
+                        <i class="fa fa-users famenuicon"></i>
+                        <span>Students</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/allteacherlist.html">
+                        <i class="fa fa-user famenuicon"></i>
+                        <span>Teachers</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/allbooklist.html">
+                        <i class="fa fa-book famenuicon"></i>
+                        <span>Library</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/attendance.html">
+                        <i class="fa fa-list famenuicon"></i>
+                        <span>Attendence</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+            </ul>
+        </aside>
+        <section class="clssectioncontent">
+            <div class="row">
+                <!-- Main Page Content Starts -->
+                <label class="clsrowlabel">Dashboard</label> <br /><br />
+                <div class="clsdashboardcount">
+                    <div class="clsdashboardleft clsdcount">
+                        <div class="cls_d" style="margin:0% 3% 0% 0%;">
+                            <div class="cls_d_cnt">
+                                <i class="fa fa-users cls_d_fa"></i>
+                                <span class="cls_faspan">Students</span>
+                            </div>
+                            <div class="cls_d_cnt">
+                                <span class="cls_d_span">50,000</span>
+                            </div>
+                        </div>
+                        <div class="cls_d">
+                            <div class="cls_d_cnt">
+                                <i class="fa fa-user cls_d_fa"></i>
+                                <span class="cls_faspan">Teachers</span>
+                            </div>
+                            <div class="cls_d_cnt">
+                                <span class="cls_d_span">10,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clsdashboardright clsdcount">
+                        <div class="cls_d" style="margin:0% 3% 0% 0%;">
+                            <div class="cls_d_cnt">
+                                <i class="fa fa-user-plus cls_d_fa"></i>
+                                <span class="cls_faspan">Parents</span>
+                            </div>
+                            <div class="cls_d_cnt">
+                                <span class="cls_d_span">15,000</span>
+                            </div>
+                        </div>
+                        <div class="cls_d">
+                            <div class="cls_d_cnt">
+                                <i class="fa fa-money cls_d_fa"></i>
+                                <span class="cls_faspan">Total Earnings</span>
+                            </div>
+                            <div class="cls_d_cnt">
+                                <span class="cls_d_span">$30,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clsdashboardsocial">
+                    <div class="clsdashboardleft clsdsocial">
+                        <div class="model_content">
+                            <div class="model_header cls_d_modelheader">
+                                <div class="model_title">
+                                    Fee Collections and Expenses
+                                </div>
+                                <div class="model_icons">
+                                    <i class="fa fa-angle-down"></i>
+                                    <i class="fa fa-refresh" title="Click here to refresh"></i>
+                                    <i class="fa fa-close" title="Click here to close"></i>
+                                </div>
+                            </div>
+                            <div class="model_body cls_fee_modelbody">
+                                <ul class="cls_ulfee">
+                                    <li>
+                                        <i class="fa fa-square clssq1"></i>
+                                        <label>$ 10,000</label><br/>
+                                        <span>Collections</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-square clssq2"></i>
+                                        <label>$ 8,000</label><br />
+                                        <span>Fees</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-square clssq3"></i>
+                                        <label>$ 5,000</label><br />
+                                        <span>Expenses</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clsdashboardright clsdsocial">
+                        <div class="cls_sm">
+                            <div class="cls_sms cls_fb" style="margin:0% 3% 3% 0%;">
+                                <div class="cls_smscontent">
+                                    <i class="fa fa-facebook-f"></i><br />
+                                    <label>
+                                        Like us<br />on Facebook
+                                    </label>
+                                </div>
+                                <div class="cls_fbcount">
+                                    <span class="cls_fbdigit">30,000</span>
+                                </div>
+                            </div>
+                            <div class="cls_sms cls_twitter" style="margin:0% 0% 3% 0%;">
+                                <div class="cls_smscontent">
+                                    <i class="fa fa-twitter"></i><br />
+                                    <label>
+                                        Like us <br /> on twitter
+                                    </label>
+                                </div>
+                                <div class="cls_fbcount">
+                                    <span class="cls_fbdigit">15,000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cls_sm">
+                            <div class="cls_sms cls_googleplus" style="margin:0% 3% 0% 0%;">
+                                <div class="cls_smscontent">
+                                    <i class="fa fa-google-plus"></i><br>
+                                    <label>
+                                        Like us <br /> on Google Plus
+                                    </label>
+                                </div>
+                                <div class="cls_fbcount">
+                                    <span class="cls_fbdigit">9,000</span>
+                                </div>
+                            </div>
+                            <div class="cls_sms cls_linkedin">
+                                <div class="cls_smscontent">
+                                    <i class="fa fa-linkedin"></i><br>
+                                    <label>
+                                        Like us <br /> on Linkeldn
+                                    </label>
+                                </div>
+                                <div class="cls_fbcount">
+                                    <span class="cls_fbdigit">18,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clsdashboardnotice">
+                    <div class="clsdashboardleft clsdnotice">
+                        <div class="model_content">
+                            <div class="model_header cls_d_modelheader">
+                                <div class="model_title">
+                                    Event Calender
+                                </div>
+                                <div class="model_icons">
+                                    <i class="fa fa-angle-down"></i>
+                                    <i class="fa fa-refresh" title="Click here to refresh"></i>
+                                    <i class="fa fa-close" title="Click here to close"></i>
+                                </div>
+                            </div>
+                            <div class="model_body cls_event_modelbody">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clsdashboardright clsdnotice">
+                        <div class="cls_noticeboard" style="margin:0% 3% 0% 0%;">
+                            <div class="model_content">
+                                <div class="model_header cls_d_modelheader">
+                                    <div class="model_title">
+                                        Notice Board
+                                    </div>
+                                    <div class="model_icons">
+                                        <i class="fa fa-angle-down"></i>
+                                        <i class="fa fa-refresh" title="Click here to refresh"></i>
+                                        <i class="fa fa-close" title="Click here to close"></i>
+                                    </div>
+                                </div>
+                                <div class="model_body cls_event_modelbody">
+                                    <div class="cls_noticedata">
+                                        <p class="clsp1">16 May, 2017</p>
+                                        <p class="clsp2">Gagan <small>5 min ago</small></p>
+                                        <p class="clsp3">Great School management tssimply dummy text after printing and
+                                            type
+                                            setting.</p>
+                                    </div>
+                                    <div class="cls_noticedata">
+                                        <p class="clsp1">16 May, 2017</p>
+                                        <p class="clsp2">Gagan <small>5 min ago</small></p>
+                                        <p class="clsp3">Great School management tssimply dummy text after printing and
+                                            type
+                                            setting.</p>
+                                    </div>
+                                    <div class="cls_noticedata">
+                                        <p class="clsp1">16 May, 2017</p>
+                                        <p class="clsp2">Gagan <small>5 min ago</small></p>
+                                        <p class="clsp3">Great School management tssimply dummy text after printing and
+                                            type
+                                            setting.</p>
+                                    </div>
+                                    <div class="cls_noticedata">
+                                        <p class="clsp1">16 May, 2017</p>
+                                        <p class="clsp2">Gagan <small>5 min ago</small></p>
+                                        <p class="clsp3">Great School management tssimply dummy text after printing and
+                                            type
+                                            setting.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cls_recentactivity">
+                            <div class="model_content">
+                                <div class="model_header cls_d_modelheader">
+                                    <div class="model_title">
+                                        Recent Activities
+                                    </div>
+                                    <div class="model_icons">
+                                        <i class="fa fa-angle-down"></i>
+                                        <i class="fa fa-refresh" title="Click here to refresh"></i>
+                                        <i class="fa fa-close" title="Click here to close"></i>
+                                    </div>
+                                </div>
+                                <div class="model_body cls_event_modelbody">
+                                    <div class="cls_noticedata">
+                                        <p class="clsp2"><i class="fa fa-circle-o"></i>&nbsp;<small>5 min ago</small></p>
+                                        <p class="clsp3">&emsp;&nbsp;You followed Williamson</p>
+                                    </div>
+                                    <div class="cls_noticedata">
+                                        <p class="clsp2"><i class="fa fa-circle-o"></i>&nbsp;<small>5 min ago</small></p>
+                                        <p class="clsp3">&emsp;&nbspYou followed Williamson</p>
+                                    </div>
+                                    <div class="cls_noticedata">
+                                        <p class="clsp2"><i class="fa fa-circle-o"></i>&nbsp;<small>5 min ago</small></p>
+                                        <p class="clsp3">&emsp;&nbspYou followed Williamson</p>
+                                    </div>
+                                    <div class="cls_noticedata">
+                                        <p class="clsp2"><i class="fa fa-circle-o"></i>&nbsp;<small>5 min ago</small></p>
+                                        <p class="clsp3">&emsp;&nbspYou followed Williamson</p>
+                                    </div>
+                                    <div class="cls_noticedata">
+                                        <p class="clsp2"><i class="fa fa-circle-o"></i>&nbsp;<small>5 min ago</small></p>
+                                        <p class="clsp3">&emsp;&nbspYou followed Williamson</p>
+                                    </div>
+                                    <div class="cls_noticedata">
+                                        <p class="clsp2"><i class="fa fa-circle-o"></i>&nbsp;<small>5 min ago</small></p>
+                                        <p class="clsp3">&emsp;&nbspYou followed Williamson</p>
+                                    </div>
+                                    <div class="cls_noticedata">
+                                        <p class="clsp2"><i class="fa fa-circle-o"></i>&nbsp;<small>5 min ago</small></p>
+                                        <p class="clsp3">&emsp;&nbspYou followed Williamson</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main Page Content Ends -->
+            </div>
+            <footer>
+                <p>&copy; Copyrights SMS 2023. All rights reserved. Designed by <b style="color: black;">Gagan</b></p>
+            </footer>
+        </section>
+    </div>
+    <!-- Body End -->
+</body>
+
+</html>

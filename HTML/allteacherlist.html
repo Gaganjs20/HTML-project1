@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Teacher List</title>
+    <link rel="icon" href="../Assets/Images/Favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/allteacherlist.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="clsheader">
+        <div class="clsheaderlogo">
+            <img src="../Assets/Images/logo.png" />
+        </div>
+        <div class="clsheaderprofile">
+            <div class="clsheaderprofilelogo">
+                <div class="clsprofilelogo">
+                    <label>
+                        <i class="fa fa-graduation-cap clsgraduationcap"></i>&nbsp;&nbsp;&nbsp;School Management System
+                    </label>
+                    <input type="text" class="clsheadersearch" placeholder="Search here...">
+                </div>
+            </div>
+            <div class="clsheaderprofileicons">
+                <div class="clsheaderprfcontent">
+                    <div class="clsdivfavicons">
+                        <i class="fa fa-globe clsheaderfavicons"></i>
+                    </div>
+                    <select class="clsheaderlanguage">
+                        <option value="English">English</option>
+                        <option value="Kannada">Kannada</option>
+                    </select>
+
+                </div>
+                <div class="clsheaderprfcontent">
+                    <div class="clsdivfavicons" style="margin-left: 15%;">
+                        <i class="fa fa-envelope clsheaderfavicons"></i>
+                    </div>
+                    <div class="clsdivfavicons" style="margin-left: 15%;">
+                        <i class="fa fa-bell clsheaderfavicons"></i>
+                    </div>
+                </div>
+                <div class="clsheaderprfcontent" style="width: 35%;">
+                    <div class="clsdivfavicons">
+                        <i class="fa fa-user clsheaderfavicons"></i>
+                    </div>
+                    <div class="clsprfdetails">
+                        <p>
+                            Gagan JS&nbsp;<i class="fa fa-caret-down"></i>
+                            <br />
+                            <a href="../HTML/login.html">Logout</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header END -->
+    <!-- Body Start -->
+    <div class="clsrow">
+        <aside class="clsasidemenus">
+            <ul class="clsmenuul">
+                <li>
+                    <a href="../HTML/dashboard.html">
+                        <i class="fa fa-dashboard famenuicon"></i>
+                        <span>Dashboard</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/student.html">
+                        <i class="fa fa-users famenuicon"></i>
+                        <span>Students</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li class="clsmenuactive">
+                    <a href="../HTML/allteacherlist.html">
+                        <i class="fa fa-user famenuicon"></i>
+                        <span>Teachers</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/allbooklist.html">
+                        <i class="fa fa-book famenuicon"></i>
+                        <span>Library</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+                <li>
+                    <a href="../HTML/attendance.html">
+                        <i class="fa fa-list famenuicon"></i>
+                        <span>Attendence</span>
+                    </a>
+                    <i class="fa fa-angle-down"></i>
+                </li>
+            </ul>
+        </aside>
+        <section class="clssectioncontent">
+            <div class="row">
+                <!-- Main Content starts -->
+                <label class="clsrowlabel">All Teacher List</label>
+                <a href="../HTML/addnewteacher.html" class="cls_a_alllist">Add New Teacher</a>
+                <br /><br />
+                <div class="model_content">
+                    <div class="model_header cls_d_modelheader">
+                        <div class="model_title">
+                            All Teachers
+                        </div>
+                        <div class="model_search_icons">
+                            <div class="model_searchbar">
+                                <input type="text" class="cls_modelSearch" placeholder="# ID Type Here..." />
+                                <input type="text" class="cls_modelSearch" placeholder="Type Class..." />
+                                <input type="text" class="cls_modelSearch" placeholder="Subject..." />
+                                <button class="cls_modelbtnsearch">Search</button>
+                            </div>
+                            <div class="model_icons">
+                                <i class="fa fa-angle-down"></i>
+                                <i class="fa fa-refresh" title="Click here to refresh"></i>
+                                <i class="fa fa-close" title="Click here to close"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="model_body cls_allstulistcontent">
+                        <table class="cls_commontable">
+                            <thead>
+                                <tr>
+                                    <!-- Column names -->
+                                    <th><input type="checkbox" /></th>
+                                    <th>ID</th>
+                                    <th>Photo</th>
+                                    <th>Name</th>
+                                    <th>Gender</th>
+                                    <th>Subject</th>
+                                    <th>Class</th>
+                                    <th>Section</th>
+                                    <th>Address</th>
+                                    <th>Date of Birth</th>
+                                    <th>Mobile No</th>
+                                    <th>E-mail</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td># 2901</td>
+                                    <td class="cls_tdimg"><img src="../Assets/Images/student1.png" /></td>
+                                    <td>Gagan</td>
+                                    <td>Male</td>
+                                    <td>Math</td>
+                                    <td>1</td>
+                                    <td>A</td>
+                                    <td>#120 bangalore</td>
+                                    <td>20/12/2001</td>
+                                    <td>+91 9663834444</td>
+                                    <td>kratos282@gmail.com</td>
+                                    <td>
+                                        <a href="../HTML/teacherdetails.html"><i class="fa fa-eye"></i></a>
+                                        <i class="fa fa-edit"></i>
+                                        <i class="fa fa-trash"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td># 2901</td>
+                                    <td class="cls_tdimg"><img src="../Assets/Images/student1.png" /></td>
+                                    <td>Gagan</td>
+                                    <td>Male</td>
+                                    <td>Math</td>
+                                    <td>1</td>
+                                    <td>A</td>
+                                    <td>#120 bangalore</td>
+                                    <td>20/12/2001</td>
+                                    <td>+91 9663834444</td>
+                                    <td>kratos282@gmail.com</td>
+                                    <td>
+                                        <i class="fa fa-eye"></i>
+                                        <i class="fa fa-edit"></i>
+                                        <i class="fa fa-trash"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td># 2901</td>
+                                    <td class="cls_tdimg"><img src="../Assets/Images/student1.png" /></td>
+                                    <td>Gagan</td>
+                                    <td>Male</td>
+                                    <td>Math</td>
+                                    <td>1</td>
+                                    <td>A</td>
+                                    <td>#120 bangalore</td>
+                                    <td>20/12/2001</td>
+                                    <td>+91 9663834444</td>
+                                    <td>kratos282@gmail.com</td>
+                                    <td>
+                                        <i class="fa fa-eye"></i>
+                                        <i class="fa fa-edit"></i>
+                                        <i class="fa fa-trash"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td># 2901</td>
+                                    <td class="cls_tdimg"><img src="../Assets/Images/student1.png" /></td>
+                                    <td>Gagan</td>
+                                    <td>Male</td>
+                                    <td>Math</td>
+                                    <td>1</td>
+                                    <td>A</td>
+                                    <td>#120 bangalore</td>
+                                    <td>20/12/2001</td>
+                                    <td>+91 9663834444</td>
+                                    <td>kratos282@gmail.com</td>
+                                    <td>
+                                        <i class="fa fa-eye"></i>
+                                        <i class="fa fa-edit"></i>
+                                        <i class="fa fa-trash"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td># 2901</td>
+                                    <td class="cls_tdimg"><img src="../Assets/Images/student1.png" /></td>
+                                    <td>Gagan</td>
+                                    <td>Male</td>
+                                    <td>Math</td>
+                                    <td>1</td>
+                                    <td>A</td>
+                                    <td>#120 bangalore</td>
+                                    <td>20/12/2001</td>
+                                    <td>+91 9663834444</td>
+                                    <td>kratos282@gmail.com</td>
+                                    <td>
+                                        <i class="fa fa-eye"></i>
+                                        <i class="fa fa-edit"></i>
+                                        <i class="fa fa-trash"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td># 2901</td>
+                                    <td class="cls_tdimg"><img src="../Assets/Images/student1.png" /></td>
+                                    <td>Gagan</td>
+                                    <td>Male</td>
+                                    <td>Math</td>
+                                    <td>1</td>
+                                    <td>A</td>
+                                    <td>#120 bangalore</td>
+                                    <td>20/12/2001</td>
+                                    <td>+91 9663834444</td>
+                                    <td>kratos282@gmail.com</td>
+                                    <td>
+                                        <i class="fa fa-eye"></i>
+                                        <i class="fa fa-edit"></i>
+                                        <i class="fa fa-trash"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td># 2901</td>
+                                    <td class="cls_tdimg"><img src="../Assets/Images/student1.png" /></td>
+                                    <td>Gagan</td>
+                                    <td>Male</td>
+                                    <td>Math</td>
+                                    <td>1</td>
+                                    <td>A</td>
+                                    <td>#120 bangalore</td>
+                                    <td>20/12/2001</td>
+                                    <td>+91 9663834444</td>
+                                    <td>kratos282@gmail.com</td>
+                                    <td>
+                                        <i class="fa fa-eye"></i>
+                                        <i class="fa fa-edit"></i>
+                                        <i class="fa fa-trash"></i>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- Main Content Ends -->
+            </div>
+            <footer>
+                <p>&copy; Copyrights SMS 2023. All rights reserved. Designed by <b style="color: black;">Gagan</b></p>
+            </footer>
+        </section>
+    </div>
+    <!-- Body End -->
+</body>
+
+</html>
